@@ -1,0 +1,155 @@
+html {
+  min-height: 100%;
+}
+body {
+  background: var(--primary-color);
+  height: 100%;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+span {
+  color: var(--secondary-color);
+}
+
+:root {
+  --primary-color: linear-gradient(
+      to bottom right,
+      rgba(115, 54, 172, 0.6),
+      /* rgb(64, 64, 64, 15%), */ rgba(103, 218, 226, 0.5)
+    )
+    fixed;
+
+  --secondary-color: purple;
+  --tertiary-color: rgba(17, 17, 17, 0.699);
+}
+
+.dark-theme {
+  --primary-color: black;
+
+  --secondary-color: rgba(186, 27, 201, 0.945);
+  --tertiary-color: white;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.col-md-6 {
+  padding-right: 0 !important;
+}
+
+.tList {
+  margin-top: 200px;
+  margin-right: 76px;
+}
+
+.fa-solid {
+  padding: 10px;
+}
+
+.navbar-brand {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+h1 {
+  margin-top: 350px;
+  margin-bottom: 50%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  color: var(--tertiary-color);
+}
+
+span {
+  color: var(--secondary-color);
+}
+
+.float-container {
+  width: inherit;
+  height: 390px;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.inputArea {
+  background-color: white;
+  width: 470px;
+  height: 390px;
+  float: right;
+  border-radius: 8px;
+  position: relative;
+}
+
+.menuPanel {
+  height: 390px;
+  width: 226px;
+  float: left;
+  border-radius: 10px;
+}
+
+.settings {
+  margin-top: 160px;
+}
+
+.navbar {
+  border-radius: 8px;
+}
+
+.menu {
+  color: var(--tertiary-color);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+}
+
+.add-element {
+  background-color: rgba(128, 128, 128, 0.507);
+  width: 436px;
+
+  position: absolute;
+  /* left: 13px; */
+  bottom: 10px;
+  border-radius: 8px;
+}
+
+.icons2 {
+  right: 0;
+  color: blueviolet;
+  position: absolute;
+  bottom: 10px;
+}
+
+#inp {
+  height: 35px;
+  border: none;
+}
+
+.form-floating {
+  height: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.fa-trash {
+  position: absolute;
+  right: 0;
+}
+
+ol {
+  color: rgb(53, 45, 31);
+  margin-top: 8px;
+}
+
+.list-time {
+  font-size: 13px;
+}
